@@ -50,6 +50,11 @@ p1{
 	margin: 2% 5%;
 }
 
+.dividerSmall{
+	border: 1px solid black;
+	margin:2% 15%;
+}
+
 .wrapperHome{
 	margin: 2%;
 	display: flex;
@@ -59,7 +64,7 @@ p1{
 
 /* ABOUT ME SECTION */ /* ABOUT ME SECTION */ /* ABOUT ME SECTION */ /* ABOUT ME SECTION */ /* ABOUT ME SECTION */
 
-h2{
+.wrapperAbout h2{
 	display: inline-block;
 	font-size: 3vw;
 	margin: 2px;
@@ -77,4 +82,29 @@ h2{
 	font-size: 20px;
 	/* border: 2px solid blue; */
 	padding: 0 20px;
+}
+
+/*PORTFOLIO SECTION*/ /*PORTFOLIO SECTION*/ /*PORTFOLIO SECTION*/ /*PORTFOLIO SECTION*/ /*PORTFOLIO SECTION*/
+
+.wrapperPortfolio h2{
+	display: inline-block;
+	font-size: 3vw;
+	margin: 2px;
+}
+
+.wrapperPortfolio{
+	margin: 0 10%;
+	display: flex;
+	flex-flow: column ;
+}
+
+.wrapperPortfolio .text{
+	margin: 10px;
+	font-size: 20px;
+	padding: 0 20px;
+}
+
+.wrapperPortfolio .project{
+	display:flex;
+	flex-direction:row;
 }
