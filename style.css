@@ -8,21 +8,15 @@ body {
 	padding: 0;
 }
 
-@media only screen and (max-width: 420px) {
-	/* For mobile phones: */
-	* {
-		background-color: pink;
-	}
-  }
-
 h1{
 	font-size: 14vw;
 	margin:0;
 }
 
-p1{
+.wrapperHome p{
 	font-size: 2.5vw;
 	letter-spacing: 11px;
+	margin:0;
 }
 
 .gradient{
@@ -37,21 +31,13 @@ p1{
   	-webkit-text-fill-color: transparent;
 }
 
-.border{
-	border: 2px solid black;
-}
-
-.bg{
-	background-color: pink;
-}
-
 .divider{
-	border: 1px solid black;
+	border: 1px solid #000;
 	margin: 2% 5%;
 }
 
 .dividerSmall{
-	border: 1px solid black;
+	border: 1px solid #000;
 	margin:2% 15%;
 }
 
