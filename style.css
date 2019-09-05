@@ -1,12 +1,6 @@
 * {
 	box-sizing: border-box;
-	font-family: productsans;
-	/* background-color: pink; */
-}
-
-@font-face {
-    font-family: productsans;
-    src:url("assets/product-sans.ttf");
+	font-family: product_sansregular;
 }
 
 body {
@@ -27,7 +21,15 @@ p1{
 .gradient{
 	background: linear-gradient(to right,#00C9FF,#92FE9D);
 	-webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  	-webkit-text-fill-color: transparent;
+}
+
+.border{
+	border: 2px solid black;
+}
+
+.bg{
+	background-color: pink;
 }
 
 .divider{
@@ -40,5 +42,19 @@ p1{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
 
+.wrapperAbout{
+	margin: 5%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.wrapperAbout .image{
+	border: 2px solid red;
+}
+
+.wrapperAbout .text{
+	border: 2px solid blue;
 }
