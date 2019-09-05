@@ -1,7 +1,7 @@
 * {
 	box-sizing: border-box;
 	font-family: productsans;
-	background-color: pink;
+	/* background-color: pink; */
 }
 
 @font-face {
@@ -15,8 +15,13 @@ body {
 }
 
 h1{
-	margin:0;
 	font-size: 200px;
+	margin:0;
+}
+
+p1{
+	font-size: 20px;
+	letter-spacing: 5px;
 }
 
 .gradient{
@@ -30,19 +35,9 @@ h1{
 	margin: 2% 10%;
 }
 
-.indent{
-	text-indent: 50px;
-}
-
-.border{
-	border: 2px solid black;
-}
-
 .wrapperHome{
 	display: flex;
-	justify-content: center;
-	align-items: flex-end;
-	flex-flow: column;
-	overflow: auto;
+	flex-direction: column;
+	align-items: center;
 
 }
