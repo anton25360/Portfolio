@@ -1,18 +1,19 @@
 * {
 	box-sizing: border-box;
-	font-family: productsans;
-	/* background-color: pink; */
-}
-
-@font-face {
-    font-family: productsans;
-    src:url("assets/product-sans.ttf");
+	font-family: product_sansregular;
 }
 
 body {
 	margin: 0;
 	padding: 0;
 }
+
+@media only screen and (max-width: 420px) {
+	/* For mobile phones: */
+	* {
+		background-color: pink;
+	}
+  }
 
 h1{
 	font-size: 14vw;
@@ -27,12 +28,26 @@ p1{
 .gradient{
 	background: linear-gradient(to right,#00C9FF,#92FE9D);
 	-webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  	-webkit-text-fill-color: transparent;
+}
+
+.gradientSub{
+	background: linear-gradient(to right,#2F80ED,#56CCF2);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+.border{
+	border: 2px solid black;
+}
+
+.bg{
+	background-color: pink;
 }
 
 .divider{
 	border: 1px solid black;
-	margin: 2% 10%;
+	margin: 2% 5%;
 }
 
 .wrapperHome{
@@ -40,5 +55,24 @@ p1{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
 
+/* ABOUT ME SECTION */ /* ABOUT ME SECTION */ /* ABOUT ME SECTION */ /* ABOUT ME SECTION */ /* ABOUT ME SECTION */
+
+h2{
+	display: inline-block;
+	font-size: 3vw;
+	margin: 2px;
+}
+
+.wrapperAbout{
+	margin: 0 10%;
+	display: flex;
+	flex-flow: row ;
+}
+
+.wrapperAbout .text{
+	margin: 10px;
+	font-size: 20px;
+	padding: 0 20px;
 }
