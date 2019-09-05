@@ -10,7 +10,7 @@ body {
 
 @media only screen and (max-width: 420px) {
 	/* For mobile phones: */
-	*{
+	* {
 		background-color: pink;
 	}
   }
@@ -68,13 +68,11 @@ h2{
 .wrapperAbout{
 	margin: 0 10%;
 	display: flex;
-	/* flex-direction: row; */
 	flex-flow: row ;
 }
 
 .wrapperAbout .text{
 	margin: 10px;
 	font-size: 20px;
-	/* border: 2px solid blue; */
 	padding: 0 20px;
 }
