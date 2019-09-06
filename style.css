@@ -108,7 +108,7 @@ h1{
 } /*use for play store badge*/
 
 a[href="http://bit.ly/cascade-app"] img {width: 200px;}
-a[href="#"] img {width: 150px; margin: 10px 2px;}
+a[href="#"] img {width: 150px; margin: 5px 2px;}
 
 
 .project .image{width:250px;} /*use for project pictures*/
