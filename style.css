@@ -31,6 +31,12 @@ h1{
   	-webkit-text-fill-color: transparent;
 }
 
+.gradientContact{
+	background: linear-gradient(to right,#283048,#859398);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
 .divider{
 	border: 1px solid #000;
 	margin: 2% 5%;
@@ -113,4 +119,9 @@ h1{
 	display: inline-block;
 	font-size: 3vw;
 	margin: 2px;
+}
+
+.icon{
+	height:100px !important;
+	width:100px !important;
 }
