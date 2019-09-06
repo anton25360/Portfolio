@@ -31,12 +31,6 @@ h1{
   	-webkit-text-fill-color: transparent;
 }
 
-.gradientContact{
-	background: linear-gradient(to right,#283048,#859398);
-	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
-}
-
 .divider{
 	border: 1px solid #000;
 	margin: 2% 5%;
@@ -119,12 +113,6 @@ h1{
 	align-items: center;
 }
 
-.wrapperContact a{
-	display: inline-block;
-	text-decoration: none;
-	font-size: 35px;
-	margin: 5px;
-}
 
 .wrapperContact h2{
 	display: inline-block;
@@ -132,7 +120,13 @@ h1{
 	margin: 2px;
 }
 
+.wrapperContact .containerIcons{
+	display: flex;
+	align-items:center;
+}
+
 .icon{
 	height: 100px;
 	width: 100px;
+	margin: 20px;
 }
