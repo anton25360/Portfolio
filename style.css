@@ -10,13 +10,13 @@ body {
 
 h1{
 	font-size: 14vw;
-	margin:0;
+	margin: 0;
 }
 
 .wrapperHome p{
 	font-size: 2.5vw;
 	letter-spacing: 11px;
-	margin:0;
+	margin: 0;
 }
 
 .gradient{
@@ -44,7 +44,7 @@ h1{
 
 .dividerSmall{
 	border: 1px solid #000;
-	margin:2% 15%;
+	margin: 2% 15%;
 }
 
 .wrapperHome{
@@ -95,8 +95,8 @@ h1{
 }
 
 .wrapperPortfolio .project{
-	display:flex;
-	flex-direction:row;
+	display: flex;
+	flex-direction: row;
 }
 
 /*CONTACT SECTION*/ /*CONTACT SECTION*/ /*CONTACT SECTION*/ /*CONTACT SECTION*/ /*CONTACT SECTION*/
@@ -104,15 +104,15 @@ h1{
 .wrapperContact{
 	margin: 0 10%;
 	display: flex;
-	flex-flow: column ;
-	align-items:center;
+	flex-flow: column;
+	align-items: center;
 }
 
 .wrapperContact a{
-	display:inline-block;
-	text-decoration:none;
-	font-size:35px;
-	margin:5px;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 35px;
+	margin: 5px;
 }
 
 .wrapperContact h2{
@@ -122,6 +122,6 @@ h1{
 }
 
 .icon{
-	height:100px !important;
-	width:100px !important;
+	height: 100px;
+	width: 100px;
 }
