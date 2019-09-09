@@ -7,8 +7,13 @@
 .containerAbout, .containerPortfolio, .containerContact{
 	margin: 0 15%;
 }
+@media only screen and (max-width: 600px) {
+	.containerAbout, .containerPortfolio, .containerContact{
+		margin: 0 5%;
+	}
+  }
 
-/*PAGE HEADER SECTION*/ /*PAGE HEADER SECTION*/ /*PAGE HEADER SECTION*/ /*PAGE HEADER SECTION*/ /*PAGE HEADER SECTION*/
+/*PAGE HEADER SECTION*/ /*PAGE HEADER SECTION*/ /*PAGE HEADER SECTION*/ /*PAGE HEADER SECTION*/
 
 /* contains page title & subtitle */
 .containerHeader{
@@ -52,7 +57,7 @@
 	margin: 2% 35%;
 }
 
-/* ABOUT ME SECTION */ /* ABOUT ME SECTION */ /* ABOUT ME SECTION */ /* ABOUT ME SECTION */ /* ABOUT ME SECTION */
+/* ABOUT ME SECTION */ /* ABOUT ME SECTION */ /* ABOUT ME SECTION */ /* ABOUT ME SECTION */
 
 /* contains about me title & text & avatar */
 .containerAbout{ display: flex; flex-flow: row ;}
@@ -82,7 +87,19 @@
 	border-radius: 5px;
 }
 
-/*PORTFOLIO SECTION*/ /*PORTFOLIO SECTION*/ /*PORTFOLIO SECTION*/ /*PORTFOLIO SECTION*/ /*PORTFOLIO SECTION*/
+@media only screen and (max-width: 600px) {
+	.containerAbout {
+	  flex-flow: column;
+	}
+	.containerAbout img{
+		height: 150px;
+		width: 150px;
+		margin-top: 20px;
+		margin-left: 35px;
+	}
+  }
+
+/*PORTFOLIO SECTION*/ /*PORTFOLIO SECTION*/ /*PORTFOLIO SECTION*/ /*PORTFOLIO SECTION*/
 
 /* contains all the projects */
 .containerPortfolio{ display: flex; flex-flow: column ;}
@@ -111,6 +128,15 @@
 a[href="http://bit.ly/cascade-app"] img {width: 190px;}
 a[href="#"] img {width: 150px; }
 
+@media only screen and (max-width: 600px) {
+	.containerPortfolio .project {
+	  flex-flow: column;
+	}
+	.project .image {        
+		margin-left: 35px;
+	  }
+  }
+
 /*CONTACT SECTION*/ /*CONTACT SECTION*/ /*CONTACT SECTION*/ /*CONTACT SECTION*/ /*CONTACT SECTION*/
 
 /* contains title and icons */
@@ -121,10 +147,17 @@ a[href="#"] img {width: 150px; }
 }
 
 /* title */
-.containerContact h2{ font-size: 3vw; margin: 2px;}
+.containerContact h2{ font-size: 40px; margin: 2px;}
 
 /* icon group */
 .containerContact .containerIcons{ display: flex; align-items:center;}
 
 /* individual icons */
 .icon{ height: 100px; width: 100px; margin: 20px;}
+
+@media only screen and (max-width: 600px) {
+	.containerContact .containerIcons{ flex-direction: column;}
+
+	.icon{ height: 80px; width: 80px; margin: 10px;}
+	
+  }
