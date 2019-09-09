@@ -44,12 +44,12 @@
 
 .divider{
 	border: 2px solid #000;
-	margin: 2% 15%;
+	margin: 2% 14%;
 }
 
 .dividerSmall{
 	border: 1px solid #000;
-	margin: 2% 19%;
+	margin: 2% 35%;
 }
 
 /* ABOUT ME SECTION */ /* ABOUT ME SECTION */ /* ABOUT ME SECTION */ /* ABOUT ME SECTION */ /* ABOUT ME SECTION */
@@ -67,7 +67,7 @@
 /* about me title */
 .containerAbout .text h2{
 	display: inline-block;
-	font-size: 3vw;
+	font-size: 40px;
 	margin: 2px;
 }
 
@@ -79,6 +79,7 @@
 	height: 150px;
 	width: 150px;
 	margin-top: 40px;
+	border-radius: 5px;
 }
 
 /*PORTFOLIO SECTION*/ /*PORTFOLIO SECTION*/ /*PORTFOLIO SECTION*/ /*PORTFOLIO SECTION*/ /*PORTFOLIO SECTION*/
@@ -89,13 +90,13 @@
 /* contains project img & text */
 .containerPortfolio .project{ display: flex; flex-direction: row;}
 
-/* project pictures */
+/* project picture */
 .project .image{width:250px;}
 
 /* projet title */
 .containerPortfolio h2{
 	display: inline-block;
-	font-size: 3vw;
+	font-size: 45px;
 	margin: 2px;
 }
 
@@ -107,8 +108,8 @@
 }
 
 /* Google Play & Firebase badges */
-a[href="http://bit.ly/cascade-app"] img {width: 200px;}
-a[href="#"] img {width: 150px; margin: 5px 2px;}
+a[href="http://bit.ly/cascade-app"] img {width: 190px;}
+a[href="#"] img {width: 150px; }
 
 /*CONTACT SECTION*/ /*CONTACT SECTION*/ /*CONTACT SECTION*/ /*CONTACT SECTION*/ /*CONTACT SECTION*/
 
