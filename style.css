@@ -92,10 +92,7 @@
 	  flex-flow: column;
 	}
 	.containerAbout img{
-		height: 150px;
-		width: 150px;
-		margin-top: 20px;
-		margin-left: 35px;
+		margin: 20px 0 0 35px;
 	}
   }
 
