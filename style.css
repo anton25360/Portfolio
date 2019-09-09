@@ -36,13 +36,15 @@
 /* title gradient */
 .gradient{
 	background: linear-gradient(to right,#00C9FF,#92FE9D);
+	background-clip: text;
 	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
+	-webkit-text-fill-color: transparent;
 }
 
 /* subtitle gradient */
 .gradientSub{
 	background: linear-gradient(to right,#2F80ED,#56CCF2);
+	background-clip: text;
 	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
 }
@@ -156,5 +158,10 @@ a[href="#"] img {width: 150px; }
 	.containerContact .containerIcons{ flex-direction: column;}
 
 	.icon{ height: 80px; width: 80px; margin: 10px;}
-	
-  }
+}
+
+/* IE COMPATIBILITY QUERY */ /* IE COMPATIBILITY QUERY */ /* IE COMPATIBILITY QUERY */ /* IE COMPATIBILITY QUERY */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.gradient{ color: #00C9FF; background: white;}
+	.gradientSub{ color: #2F80ED; background: white;}
+}
