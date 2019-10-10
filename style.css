@@ -22,7 +22,12 @@
 
 	.containerAbout .text a{ color: cornsilk; }
 
-	
+	.containerContact .containerIcons{
+		border-radius: 7px;
+		background-color: white;
+		margin: 20px;
+	}
+
   }
 
 /*PAGE HEADER SECTION*/ /*PAGE HEADER SECTION*/ /*PAGE HEADER SECTION*/ /*PAGE HEADER SECTION*/
@@ -155,6 +160,7 @@ a[href="#"] img {width: 150px; }
 	display: flex;
 	flex-flow: column;
 	align-items: center;
+	margin-bottom: 30px;
 }
 
 /* title */
