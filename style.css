@@ -13,6 +13,18 @@
 	}
   }
 
+/* dark mode */
+@media (prefers-color-scheme: dark) {
+	body {
+	  background-color: #181c22;
+	  color: white;
+	}
+
+	.containerAbout .text a{ color: cornsilk; }
+
+	
+  }
+
 /*PAGE HEADER SECTION*/ /*PAGE HEADER SECTION*/ /*PAGE HEADER SECTION*/ /*PAGE HEADER SECTION*/
 
 /* contains page title & subtitle */
