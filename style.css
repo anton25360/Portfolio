@@ -124,7 +124,8 @@
 .containerPortfolio .project{ display: flex; flex-direction: row;}
 
 /* project picture */
-.project .image{width:250px;}
+.project .image{width:250px; border: 2px solid black;}
+.project #imgPaint{width: 350px;}
 
 /* projet title */
 .containerPortfolio h2{
