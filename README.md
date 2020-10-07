@@ -10,8 +10,8 @@ Portfolio website designed to showcase my projects (all available on Github) as 
 
 ## Link
 
-You can check it out [here](anton25360.github.io/Portfolio), or paste this in your browser:
+You can check it out [here](https://anton25360.github.io/Portfolio-v1/), or paste this in your browser:
 
 ```bash
-anton25360.github.io/Portfolio/
+https://anton25360.github.io/Portfolio-v1/
 ```
