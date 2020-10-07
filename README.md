@@ -13,5 +13,5 @@ Portfolio website designed to showcase my projects (all available on Github) as 
 You can check it out [here](anton25360.github.io/Portfolio), or paste this in your browser:
 
 ```bash
-anton25360.github.io/Portfolio
+anton25360.github.io/Portfolio/
 ```
